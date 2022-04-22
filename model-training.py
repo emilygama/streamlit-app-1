@@ -6,11 +6,9 @@ import pickle
 
 # load data
 
-
 def load_iris():
     return px.data.iris()
-
-
+    
 df_iris = load_iris()
 
 X = df_iris.drop(columns=["species", "species_id"])
